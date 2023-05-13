@@ -1,0 +1,30 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.counter-container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    > h1{
+        font-size: 8rem;
+        color: aquamarine;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    > .button-container{
+        >button{
+            width: 40px;
+            height: 40px;
+            outline: black;
+        }
+    }
+
+}
+
